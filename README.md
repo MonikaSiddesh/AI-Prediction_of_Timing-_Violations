@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project aims to predict the logic depth of a circuit before synthesis using a machine learning model. It helps identify potential timing violations early in the design process, reducing synthesis runtime and enabling better design optimization.
+This project addresses the challenge of long synthesis runtimes in digital circuit design by developing an AI-powered solution to predict combinational logic depth before synthesis. By accurately estimating logic depth early in the design flow, potential timing violations can be identified and mitigated, leading to faster design iterations and reduced overall project time. The solution utilizes an XGBoost machine learning model trained on a synthetically generated dataset of circuits, leveraging features derived from gate-level circuit descriptions. This project targets a generic technology node.
 
 ## Project Structure
 
