@@ -77,5 +77,8 @@ The model’s performance is validated using:
 
 - **Time Complexity**: Training the model runs in `O(n log n)` due to XGBoost’s tree-based learning.
 - **Space Complexity**: `O(n)` where `n` is the number of training samples.
+## Conclusion
+
+This project demonstrates the feasibility of using an XGBoost machine learning model to predict combinational logic depth before synthesis. The model achieves good accuracy on the synthetic dataset, as evidenced by low RMSE and MAE values and a high R-squared score during both train/test evaluation and cross-validation.  This approach shows promise for early timing violation detection and has the potential to significantly reduce design iteration time.
 
 
